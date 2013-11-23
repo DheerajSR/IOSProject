@@ -22,6 +22,8 @@
 		9362E56018407597008E611B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9362E54418407597008E611B /* CoreData.framework */; };
 		9362E56818407597008E611B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9362E56618407597008E611B /* InfoPlist.strings */; };
 		9362E56A18407597008E611B /* RegistrationAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9362E56918407597008E611B /* RegistrationAppTests.m */; };
+		9362E57818407C78008E611B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9362E57618407C78008E611B /* LoginViewController.m */; };
+		9362E57918407C78008E611B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9362E57718407C78008E611B /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		9362E56518407597008E611B /* RegistrationAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegistrationAppTests-Info.plist"; sourceTree = "<group>"; };
 		9362E56718407597008E611B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9362E56918407597008E611B /* RegistrationAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationAppTests.m; sourceTree = "<group>"; };
+		9362E57518407C78008E611B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9362E57618407C78008E611B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9362E57718407C78008E611B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,7 @@
 		9362E54618407597008E611B /* RegistrationApp */ = {
 			isa = PBXGroup;
 			children = (
+				9362E57318407C4F008E611B /* ViewContollers */,
 				9362E54F18407597008E611B /* AppDelegate.h */,
 				9362E55018407597008E611B /* AppDelegate.m */,
 				9362E55518407597008E611B /* Images.xcassets */,
@@ -151,6 +157,24 @@
 				9362E56618407597008E611B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9362E57318407C4F008E611B /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				9362E57418407C4F008E611B /* LoginViewController */,
+			);
+			path = ViewContollers;
+			sourceTree = "<group>";
+		};
+		9362E57418407C4F008E611B /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9362E57518407C78008E611B /* LoginViewController.h */,
+				9362E57618407C78008E611B /* LoginViewController.m */,
+				9362E57718407C78008E611B /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +254,7 @@
 			files = (
 				9362E54B18407597008E611B /* InfoPlist.strings in Resources */,
 				9362E55618407597008E611B /* Images.xcassets in Resources */,
+				9362E57918407C78008E611B /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9362E57818407C78008E611B /* LoginViewController.m in Sources */,
 				9362E55118407597008E611B /* AppDelegate.m in Sources */,
 				9362E54D18407597008E611B /* main.m in Sources */,
 				9362E55418407597008E611B /* RegistrationApp.xcdatamodeld in Sources */,
